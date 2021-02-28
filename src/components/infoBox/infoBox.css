@@ -1,0 +1,52 @@
+.boxWrapper {
+  min-width: 300px;
+  width: 300px;
+  min-height: 325px;
+  height: auto;
+  font-size: auto;
+  font-family: cursive;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin: 15px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.infoBoxStyle {
+  width: 100%;
+  min-height: 240px;
+  position: relative;
+}
+
+.details {
+  text-align: center;
+  color: rgb(161, 161, 161);
+  letter-spacing: 2px;
+}
+
+.thumbnail {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.albumInfoWrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  width: 100%;
+  height: 65px;
+}
+
+.trackBoxStyle {
+  display: flex;
+  width: 250px;
+  height: 150px;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  border: 2px solid rgb(161, 161, 161);
+  border-radius: 8px;
+  margin: 5px;
+}

@@ -1,0 +1,13 @@
+.listContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  width: 90%;
+  flex-flow: row wrap;
+}
+
+.errorMessage {
+  font-size: 30px;
+  color: white;
+}

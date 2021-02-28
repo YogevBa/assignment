@@ -1,0 +1,18 @@
+.headerContainer {
+  width: 100%;
+  text-align: center;
+  height: auto;
+  background-color: black;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.headerText {
+  padding: 15px;
+  color: rgb(0, 255, 221);
+  letter-spacing: 5px;
+  font-size: 35px;
+  font-family: cursive;
+}
